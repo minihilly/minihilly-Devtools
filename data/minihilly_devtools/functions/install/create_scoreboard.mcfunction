@@ -24,6 +24,23 @@ scoreboard objectives add debugLogPriority dummy
 #@api
 #define tag minihilly_devtools.debug
 
+#region debug.log
+#>
+#   player tag for showing error logs
+#@api
+#define tag minihilly_devtools.debug.log.error
+
+#>
+#   player tag for showing warning logs
+#@api
+#define tag minihilly_devtools.debug.log.warn
+
+#>
+#   player tag for showing info logs
+#@api
+#define tag minihilly_devtools.debug.log.info
+#endregion
+
 #>
 #   alias for targeting debug (didn't know where else to put this?)
 #@api
